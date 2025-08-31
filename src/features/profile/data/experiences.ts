@@ -2,17 +2,18 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "simplamo",
-    companyName: "Simplamo Enterprise JSC",
+    id: "bosch",
+    companyName: "Bosch Logistics Gmbh",
     companyLogo: "https://assets.chanhdai.com/images/companies/simplamo.webp",
     positions: [
       {
         id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
-        title: "Senior Frontend Developer",
+        title: "Full stack Developer",
         employmentPeriod: {
-          start: "10.2022",
+          start: "03.2025",
+          end: "09.2025",
         },
-        employmentType: "Full-time",
+        employmentType: "Internship",
         icon: "code",
         description: `- Develop [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
 - Develop [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
@@ -24,13 +25,12 @@ export const EXPERIENCES: Experience[] = [
 - Analyze technical capabilities and provide optimal solutions.`,
         skills: [
           "TypeScript",
-          "Next.js",
-          "React Native",
-          "MobX",
-          "MobX-State-Tree",
+          "Node.js",
+          "Angular.js",
+          "NoSQL",
           "Tailwind CSS",
-          "Dify",
-          "Zalo Mini App",
+          "Figma",
+          "Docker",
           "Agile",
           "Teamwork",
           "Research",
@@ -38,34 +38,22 @@ export const EXPERIENCES: Experience[] = [
         ],
         isExpanded: true,
       },
-      {
-        id: "cedd7adb-4118-4085-9983-ae00530b49e2",
-        title: "UI Design Lead",
-        employmentPeriod: {
-          start: "10.2022",
-        },
-        employmentType: "Full-time",
-        icon: "design",
-        description: `- Ensure UI/UX consistency and high-quality standards.
-- Design intuitive, user-focused interfaces aligned with business goals.
-- Define and establish a cohesive UI style for Simplamo.`,
-        skills: ["Creativity", "UI/UX Design", "Figma"],
-      },
     ],
     isCurrentEmployer: true,
   },
   {
-    id: "quaric",
-    companyName: "Quaric Co., Ltd.",
+    id: "brose",
+    companyName: "Brose Gmbh",
     companyLogo: "https://assets.chanhdai.com/images/companies/quaric.svg",
     positions: [
       {
         id: "30d3a9fb-021d-452a-9d27-83655369b4b9",
         title: "Software Engineer",
         employmentPeriod: {
-          start: "03.2024",
+          start: "03.2023",
+          end: "03.2025",
         },
-        employmentType: "Part-time",
+        employmentType: "Working Student",
         icon: "code",
         description: `In-house Project: [Quaric Website](https://quaric.com)
 - Integrated VNPAY-QR for secure transactions.
@@ -76,14 +64,19 @@ In-house Project: [ZaDark](https://zadark.com)
 - Build and maintain ZaDark.com with Docusaurus, integrating AdSense.
 - Develop and maintain the ZaDark extension for Zalo Web on Chrome, Safari, Edge, and Firefox — with 15,000+ active users via Chrome Web Store.`,
         skills: [
-          "Next.js",
-          "Strapi",
-          "Auth0",
-          "VNPAY-QR",
+          "PHP (Codeignator)",
+          "JavaScript (ES6+)",
+          "Node.js",
+          "React",
+          "SAP",
+          "MSSQL",
+          "Figma",
+          "HTML",
+          "CSS",
+          "Bootstrap",
           "Docker",
           "NGINX",
-          "Google Cloud",
-          "Docusaurus",
+          "Prototyping",
           "Extension",
           "Research",
           "Project Management",
@@ -126,27 +119,32 @@ In-house Project: [ZaDark](https://zadark.com)
     isCurrentEmployer: true,
   },
   {
-    id: "tungtung",
-    companyName: "Tung Tung JSC",
+    id: "unibamberg",
+    companyName: "University of Bamberg",
     companyLogo: "https://assets.chanhdai.com/images/companies/tungtung.webp",
     positions: [
       {
         id: "3e831244-8d8c-41e2-b2ce-7f3946956afd",
-        title: "Web Developer",
+        title: "UX Designer",
         employmentPeriod: {
-          start: "2020",
-          end: "2022",
+          start: "08.2023",
+          end: "02.2024",
         },
-        employmentType: "Full-time",
+        employmentType: "HiWi",
         description: `- Built a scalable design system for consistency and efficiency.
 - Built a complex rich-text editor based on ProseMirror and Slate for customizable content creation.
 - Integrated APIs with the Backend Team to enhance functionality.`,
         icon: "code",
         skills: [
           "React",
-          "Redux",
-          "Storybook",
-          "Lerna",
+          "Figma",
+          "Sketch",
+          "UI/UX Design",
+          "Graphic Design",
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Prototyping",
+          "Wireframing",
           "Agile",
           "Teamwork",
           "Research",
